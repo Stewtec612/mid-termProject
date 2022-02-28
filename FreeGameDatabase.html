@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ExploreFreeGames</title>
+
+    <meta charset="UTF-8">
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="freegDb.js" rel="script"></script>
+<body>
+
+<div class="container mx-7" >
+    <div class="jumbotron">
+        <h1> Explore Free-to-Play Games </h1>
+    </div >
+
+    <div class="selections">
+    <label for="platforms" class="m-4">Select Platform</label>
+    <select id="platforms">
+        <option>PC</option>
+        <option>Web</option>
+    </select><br>
+
+    <label for="genre" class="m-4">Select Genre</label>
+        <select id="genre">
+            <option>Action</option>
+            <option>OpenWorld</option>
+        </select>
+    </div>
+
+    <div class="resultList">
+        <p> Search Results: <span id="result-list"></span></p>
+    </div>
+
+</div>
+
+</body>
+</html>

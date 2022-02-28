@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(111,177,242),rgb(44,82,120));
+
+
+}
+
+.container{
+    border: 3px black solid;
+}
+.jumbotron{
+    background-color: #95a5bf;
+    height: 100px;
+    font-family: 'Prompt', sans-serif;
+    border: 3px #838fa3 solid;
+    text-align: center;
+}
+.selections{
+    font-family: 'Prompt', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+
+}
